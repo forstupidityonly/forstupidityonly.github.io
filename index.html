@@ -77,15 +77,16 @@
         <div class="text-light d-flex justify-content-center" id="Contact">
             <script type="text/javascript">var submitted=false;</script>
                 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://forstupidityonly.github.io/#Contact';}"></iframe>
-            <form class="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdKq-kj0H1T6t0vTtT78UTgnC8ZiK2cZYrPdQ7QI-TKMRJ0Og/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;" >
-                <label>Name:</label><br>
-                <input name="entry.1196203132" type="text" /><br><br>
-                <label>Email:</label><br>
-                <input name="entry.1974526202" type="email" required /><br><br>
-                <label>Message:</label><br>
-                <textarea name="entry.1136888551" type="text"></textarea><br><br>
+            <form class="form w-100" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdKq-kj0H1T6t0vTtT78UTgnC8ZiK2cZYrPdQ7QI-TKMRJ0Og/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                <div class="d-flex justify-content-center flex-xs-column form-group">
+                    <input name="entry.1196203132" type="text" class="col-sm-5 col-md-4 col-lg-3 form-control mr-1" placeholder="Name" />
+                    <input name="entry.1974526202" type="email" class="col-sm-5 col-md-4 col-lg-3 form-control ml-1" placeholder="Email" required /><br><br>
+                </div>
+                <div class="d-flex justify-content-center form-group">
+                    <textarea name="entry.1136888551" type="text" class="col-sm-8 col-lg-6 form-control" placeholder="Message"></textarea><br><br>
+                </div>
                 <div class="d-flex justify-content-center">
-                    <input type="submit" value="Send" />
+                    <input type="submit" value="Send" class="text-light btn btn-primary" />
                 </div>
             </form>
         </div>
