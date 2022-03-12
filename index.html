@@ -6,15 +6,9 @@
         <link rel="stylesheet" href="main.css">
         <title>Corbin VanDeventer portfolio</title>
         <meta name="description" content="Bootstrap is a free and open-source CSS framework">
-
-        <style>
-            .my-container {
-                background-color: #3D4849;
-            }
-        </style>
     </head>
     <body class="bg-dark">
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom box-shadow">
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom border-secondary box-shadow">
             <h5 class="my-0 mr-md-auto text-light font-weight-normal">Corbin VanDeventer</h5>
             <nav class="my-2 my-md-0 mr-md-3 d-flex flex-column align-items-center flex-sm-row">
                 <a class="p-2 text-light" href="#About">About</a>
@@ -30,13 +24,13 @@
             </nav>
         </div>
         <div class="d-flex flex-column align-items-center p-3 px-sm-0 px-md-5 container-md" id="About">
-            <img src="./resources/User.jpeg" alt="portrait" class="rounded img-fluid" style="max-width: 100%;"/>
-            <div class="px-5 pt-3 text-center">
+            <img src="./resources/User.jpeg" alt="portrait" class="rounded img-fluid py-3" style="max-width: 100%;"/>
+            <div class="px-5 pt-3 text-center pt-5">
                 <p class="text-light">I am motivated by a desire to comprehend the things I interact with. My dad likes to tell a story where apparently, I refused to use the toilet until he showed me how the plumbing worked and that flushing did not simply dump waste water under the house.</p>
                 <p class="text-light">The moment I was introduced to the family desktop I wanted to know how people had tricked a bunch of metal and plastic to effectively think using electricity. Years later that same curiosity led me to intern with my middle school IT department, learn Linux for my science fair project, take AP-Java programming in high school and eventually attend Holberton School for software engineering. At Holberton I completed the full-stack web development course.</p>
             </div>
         </div>
-        <div class="container" id="Projects">
+        <div class="container py-5" id="Projects">
             <div class="row mb-3 text-center d-flex justify-content-center">
                 <div class="col-11 col-sm-8 col-md-3 card  mb-4 mx-3 box-shadowi bg-info">
                     <div class="card-title">
@@ -73,7 +67,9 @@
                 </div>
             </div>
         </div>
-
+        <div class="text-center font-weight-bold text-light pb-3">
+            <h1>Send Me A Message!</h1>
+        </div>
         <div class="text-light d-flex justify-content-center" id="Contact">
             <script type="text/javascript">var submitted=false;</script>
                 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://forstupidityonly.github.io/#Contact';}"></iframe>
@@ -85,12 +81,15 @@
                 <div class="d-flex justify-content-center form-group">
                     <textarea name="entry.1136888551" type="text" class="col-sm-8 col-lg-6 form-control" placeholder="Message"></textarea><br><br>
                 </div>
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center pb-5">
                     <input type="submit" value="Send" class="text-light btn btn-primary" />
                 </div>
             </form>
         </div>
-
-    </body>
-    <footer></footer>
+      </body>
+    <footer class="py-3 border-top border-secondary">
+        <div class="d-flex justify-content-center text-muted">
+            <p>©Corbin VanDeventer: 2022 | Portfolio Website</p>
+        </div>
+    </footer>
 </html>
